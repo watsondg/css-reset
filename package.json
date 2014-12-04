@@ -1,6 +1,6 @@
 {
   "name": "nk-css-reset",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CSS reset",
   "main": "index.css",
   "style": "index.css",
