@@ -1,0 +1,25 @@
+{
+  "name": "nk-css-reset",
+  "version": "0.0.0",
+  "description": "CSS reset",
+  "main": "index.css",
+  "style": "index.css",
+  "files": [
+    "index.css"
+  ],
+  "keywords": [
+    "css",
+    "reset",
+    "browser"
+  ],
+  "license": "MIT",
+  "author": "Antoine Lehurt <code@kewah.com> (http://kewah.com/)",
+  "homepage": "https://github.com/kewah/nk-css-reset",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kewah/nk-css-reset"
+  },
+  "bugs": {
+    "url": "https://github.com/kewah/nk-css-reset/issues"
+  }
+}
