@@ -53,7 +53,8 @@ small {
   padding: 0;
 }
 
-form {
+form,
+figure {
   margin: 0;
 }
 
