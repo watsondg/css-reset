@@ -1,20 +1,21 @@
-# nk-css-reset
+# css-reset
 
-CSS reset.  
+CSS reset.
 Inspired by [cssrecipes-defaults](https://github.com/cssrecipes/defaults)
+Forked from [nk-css-reset](https://github.com/nk-components/css-reset).
 
 ## Install
 
 With [npm](http://npmjs.org) do:
 
 ```bash
-$ npm install nk-css-reset --save-dev
+$ npm install watsondg/css-reset -S
 ```
 
 ## Usage
 
 ```css
-@import "./node_modules/nk-css-reset/index.css";
+@import "./node_modules/css-reset/index.css";
 ```
 
 ## License

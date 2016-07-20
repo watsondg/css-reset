@@ -2,6 +2,8 @@ html {
   box-sizing: border-box;
   border-collapse: collapse;
   line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -22,6 +24,11 @@ html {
 
 [hidden] {
   display: none !important;
+}
+
+body {
+  /* Avoid iOS font-size discrepencies */
+  text-size-adjust: 100%;
 }
 
 html,
@@ -45,6 +52,7 @@ li {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 p,
@@ -61,5 +69,28 @@ figure {
 fieldset {
   border: none;
   margin: 0;
+  padding: 0;
+}
+
+/*
+    Avoid "too bold" fonts title
+    with web fonts
+*/
+h1, h2, h3, h4, h5 {
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  border: 0;
+}
+
+button {
+  outline: none;
+  border: none;
   padding: 0;
 }
