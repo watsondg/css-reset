@@ -1,7 +1,8 @@
 # css-reset
 
 CSS reset.
-Inspired by [cssrecipes-defaults](https://github.com/cssrecipes/defaults)
+Inspired by [cssrecipes-defaults](https://github.com/cssrecipes/defaults).
+
 Forked from [nk-css-reset](https://github.com/nk-components/css-reset).
 
 ## Install
