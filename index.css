@@ -28,6 +28,7 @@ html {
 
 body {
   /* Avoid iOS font-size discrepencies */
+  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
